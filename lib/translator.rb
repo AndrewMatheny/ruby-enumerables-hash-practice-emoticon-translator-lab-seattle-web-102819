@@ -11,7 +11,7 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file,english_emoji)
-    library = load_library(file)
+  library = load_library(file)
   if library["get_emoticon"].include?(english_emoji)
     return library["get_emoticon"][english_emoji]
   else
@@ -21,6 +21,6 @@ end
 
 def get_english_meaning(file,japanese_emoji)
   library = load_library(file)
-  
+  if libary
   
 end
