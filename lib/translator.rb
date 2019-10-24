@@ -19,6 +19,6 @@ def get_japanese_emoticon(file,english_emoji)
   end
 end
 
-def get_english_meaning
+def get_english_meaning(file,japanese_emoji)
   
 end
